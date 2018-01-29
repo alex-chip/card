@@ -1,0 +1,61 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100hv;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #fff;
+}
+
+.title {
+    text-align: center;
+    color: rgba(0, 0, 0, .7);
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+}
+
+.card-container {
+    width: 60%;
+    height: 400px;
+    background:rgba(0, 0, 0, .7);
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+}
+
+.card-img {
+    width: 70%;
+    margin: auto;
+    border: 5px;
+}
+
+.icon-heart {
+    --color: pink;
+    font-size: 4em;
+    color: var(--color);
+    transform: scale(0.6);
+    will-change: transform;
+    cursor: pointer;
+}
+
+.icon-heart.animate {
+    animation: explosion 1s;
+}
+  
+  @-webkit-keyframes explosion {
+    to {
+      text-shadow: 99px 0px,176.06657px 37.4241px,90.441px 40.26693px,145.62306px 105.80135px,66.24393px 73.57134px,90px 155.88457px,30.59268px 94.1546px,18.81512px 179.01394px,-10.34832px 98.45767px,-55.62306px 171.19017px,-49.5px 85.73651px,-120.44351px 133.76607px,-80.09268px 58.19074px,-164.43818px 73.2126px,-96.83661px 20.58326px,-180px 0px,-96.83661px -20.58326px,-164.43818px -73.2126px,-80.09268px -58.19074px,-120.44351px -133.76607px,-49.5px -85.73651px,-55.62306px -171.19017px,-10.34832px -98.45767px,18.81512px -179.01394px,30.59268px -94.1546px,90.0px -155.88457px,66.24393px -73.57134px,145.62306px -105.80135px,90.441px -40.26693px,176.06657px -37.4241px,99px 0px;
+      -webkit-transform: none;
+      transform: none;
+      color: transparent; } }
+  
+  @keyframes explosion {
+    to {
+      text-shadow: 99px 0px,176.06657px 37.4241px,90.441px 40.26693px,145.62306px 105.80135px,66.24393px 73.57134px,90px 155.88457px,30.59268px 94.1546px,18.81512px 179.01394px,-10.34832px 98.45767px,-55.62306px 171.19017px,-49.5px 85.73651px,-120.44351px 133.76607px,-80.09268px 58.19074px,-164.43818px 73.2126px,-96.83661px 20.58326px,-180px 0px,-96.83661px -20.58326px,-164.43818px -73.2126px,-80.09268px -58.19074px,-120.44351px -133.76607px,-49.5px -85.73651px,-55.62306px -171.19017px,-10.34832px -98.45767px,18.81512px -179.01394px,30.59268px -94.1546px,90.0px -155.88457px,66.24393px -73.57134px,145.62306px -105.80135px,90.441px -40.26693px,176.06657px -37.4241px,99px 0px;
+      -webkit-transform: none;
+      transform: none;
+      color: transparent; } }
